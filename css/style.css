@@ -1,0 +1,23 @@
+.contacts a .icon {
+    transition: 400ms ease-in-out;
+}
+.contacts a:hover .icon{
+    transform: rotate(360deg);
+}
+
+.timeline li{
+    transition: 300ms ease-in-out;
+}
+
+.timeline li:hover{
+    transform: translateX(10px);
+}
+
+.avatar{
+    object-fit: contain;
+    transition: 300ms ease-in-out;
+}
+
+.avatar:hover{
+    transform:scale(1.1);
+}
